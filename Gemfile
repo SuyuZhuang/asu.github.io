@@ -2,6 +2,12 @@
 
 source "https://rubygems.org"
 
+gem 'jekyll', '~> 4.3'
+gem 'webrick', '~> 1.8'
+gem 'jekyll-sass-converter', '~> 3.0'
+gem 'rouge', '~> 4.0'
+gem 'listen', '~> 3.8'
+
 gem "jekyll-theme-chirpy", "~> 7.3"
 
 gem "html-proofer", "~> 5.0", group: :test
